@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+backtesting_dash/
+
+# Environment variables and secret keys
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Streamlit cache and logs
+.streamlit/
+*.log
+
+# Test and coverage output
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+
+# Data files and results
+data/*.csv
+data/*.parquet
+*.pkl
+*.h5
+
+# Python egg and packaging
+*.egg-info/
+dist/
+build/
+.eggs/
